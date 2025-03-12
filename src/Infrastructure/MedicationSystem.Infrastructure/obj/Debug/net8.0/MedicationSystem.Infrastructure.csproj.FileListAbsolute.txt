@@ -1,0 +1,17 @@
+/home/arch/Desktop/medication-system/src/Infrastructure/MedicationSystem.Infrastructure/bin/Debug/net8.0/MedicationSystem.Infrastructure.deps.json
+/home/arch/Desktop/medication-system/src/Infrastructure/MedicationSystem.Infrastructure/bin/Debug/net8.0/MedicationSystem.Infrastructure.dll
+/home/arch/Desktop/medication-system/src/Infrastructure/MedicationSystem.Infrastructure/bin/Debug/net8.0/MedicationSystem.Infrastructure.pdb
+/home/arch/Desktop/medication-system/src/Infrastructure/MedicationSystem.Infrastructure/obj/Debug/net8.0/MedicationSystem.Infrastructure.csproj.AssemblyReference.cache
+/home/arch/Desktop/medication-system/src/Infrastructure/MedicationSystem.Infrastructure/obj/Debug/net8.0/MedicationSystem.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/arch/Desktop/medication-system/src/Infrastructure/MedicationSystem.Infrastructure/obj/Debug/net8.0/MedicationSystem.Infrastructure.AssemblyInfoInputs.cache
+/home/arch/Desktop/medication-system/src/Infrastructure/MedicationSystem.Infrastructure/obj/Debug/net8.0/MedicationSystem.Infrastructure.AssemblyInfo.cs
+/home/arch/Desktop/medication-system/src/Infrastructure/MedicationSystem.Infrastructure/obj/Debug/net8.0/MedicationSystem.Infrastructure.csproj.CoreCompileInputs.cache
+/home/arch/Desktop/medication-system/src/Infrastructure/MedicationSystem.Infrastructure/obj/Debug/net8.0/MedicationSystem.Infrastructure.dll
+/home/arch/Desktop/medication-system/src/Infrastructure/MedicationSystem.Infrastructure/obj/Debug/net8.0/refint/MedicationSystem.Infrastructure.dll
+/home/arch/Desktop/medication-system/src/Infrastructure/MedicationSystem.Infrastructure/obj/Debug/net8.0/MedicationSystem.Infrastructure.pdb
+/home/arch/Desktop/medication-system/src/Infrastructure/MedicationSystem.Infrastructure/obj/Debug/net8.0/ref/MedicationSystem.Infrastructure.dll
+/home/arch/Desktop/medication-system/src/Infrastructure/MedicationSystem.Infrastructure/bin/Debug/net8.0/MedicationSystem.Application.dll
+/home/arch/Desktop/medication-system/src/Infrastructure/MedicationSystem.Infrastructure/bin/Debug/net8.0/MedicationSystem.Domain.dll
+/home/arch/Desktop/medication-system/src/Infrastructure/MedicationSystem.Infrastructure/bin/Debug/net8.0/MedicationSystem.Application.pdb
+/home/arch/Desktop/medication-system/src/Infrastructure/MedicationSystem.Infrastructure/bin/Debug/net8.0/MedicationSystem.Domain.pdb
+/home/arch/Desktop/medication-system/src/Infrastructure/MedicationSystem.Infrastructure/obj/Debug/net8.0/MedicationSystem.Infrastructure.csproj.CopyComplete

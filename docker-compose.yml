@@ -1,0 +1,38 @@
+networks:
+  sql-server:
+    external: false
+    name: sql-server
+
+services:
+  sql-server:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sql-server
+    environment:
+      - "MSSQL_SA_PASSWORD=P@ssw0rd23"
+      - "ACCEPT_EULA=Y"
+    networks:
+      - sql-server
+
+  medication-migrations:
+    image: medication-migrations
+    build: ./src/Infrastructure/MedicationSystem.Migrations/
+    container_name: medication-migrations
+    depends_on:
+      - sql-server
+    environment:
+      - "ConnectionString=Server=sql-server;Database=MedicationSystem;User Id=sa;Password=P@ssw0rd23; TrustServerCertificate= true;"
+    networks:
+      - sql-server
+
+  medication-backend:
+    image: medication-backend
+    build: ./src
+    container_name: medication-backend
+    depends_on:
+      - medication-migrations
+    environment:
+      - "ConnectionString=Server=sql-server;Database=MedicationSystem;User Id=sa;Password=P@ssw0rd23; TrustServerCertificate= true;"
+    networks:
+      - sql-server
+    ports:
+      - "8080:8080"

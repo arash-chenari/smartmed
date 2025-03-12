@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Mtp3qCQuZSGTkwFAGZBZwfJ49IM6EkHdMFmUjL/MR/U=",
+  "Source": "MedicationSystem.RestApi",
+  "BasePath": "_content/MedicationSystem.RestApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

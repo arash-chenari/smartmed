@@ -1,0 +1,346 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/arch/Desktop/smartmed/src/Presentation/MedicationSystem.RestApi/MedicationSystem.RestApi.csproj": {}
+  },
+  "projects": {
+    "/home/arch/Desktop/smartmed/src/Core/MedicationSystem.Application/MedicationSystem.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/arch/Desktop/smartmed/src/Core/MedicationSystem.Application/MedicationSystem.Application.csproj",
+        "projectName": "MedicationSystem.Application",
+        "projectPath": "/home/arch/Desktop/smartmed/src/Core/MedicationSystem.Application/MedicationSystem.Application.csproj",
+        "packagesPath": "/home/arch/.nuget/packages/",
+        "outputPath": "/home/arch/Desktop/smartmed/src/Core/MedicationSystem.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/arch/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/arch/Desktop/smartmed/src/Core/MedicationSystem.Domain/MedicationSystem.Domain.csproj": {
+                "projectPath": "/home/arch/Desktop/smartmed/src/Core/MedicationSystem.Domain/MedicationSystem.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/arch/Desktop/smartmed/src/Core/MedicationSystem.Domain/MedicationSystem.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/arch/Desktop/smartmed/src/Core/MedicationSystem.Domain/MedicationSystem.Domain.csproj",
+        "projectName": "MedicationSystem.Domain",
+        "projectPath": "/home/arch/Desktop/smartmed/src/Core/MedicationSystem.Domain/MedicationSystem.Domain.csproj",
+        "packagesPath": "/home/arch/.nuget/packages/",
+        "outputPath": "/home/arch/Desktop/smartmed/src/Core/MedicationSystem.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/arch/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/arch/Desktop/smartmed/src/Infrastructure/MedicationSystem.Infrastructure/MedicationSystem.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/arch/Desktop/smartmed/src/Infrastructure/MedicationSystem.Infrastructure/MedicationSystem.Infrastructure.csproj",
+        "projectName": "MedicationSystem.Infrastructure",
+        "projectPath": "/home/arch/Desktop/smartmed/src/Infrastructure/MedicationSystem.Infrastructure/MedicationSystem.Infrastructure.csproj",
+        "packagesPath": "/home/arch/.nuget/packages/",
+        "outputPath": "/home/arch/Desktop/smartmed/src/Infrastructure/MedicationSystem.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/arch/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/arch/Desktop/smartmed/src/Core/MedicationSystem.Application/MedicationSystem.Application.csproj": {
+                "projectPath": "/home/arch/Desktop/smartmed/src/Core/MedicationSystem.Application/MedicationSystem.Application.csproj"
+              },
+              "/home/arch/Desktop/smartmed/src/Core/MedicationSystem.Domain/MedicationSystem.Domain.csproj": {
+                "projectPath": "/home/arch/Desktop/smartmed/src/Core/MedicationSystem.Domain/MedicationSystem.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/arch/Desktop/smartmed/src/Infrastructure/MedicationSystem.Persistence.EF/MedicationSystem.Persistence.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/arch/Desktop/smartmed/src/Infrastructure/MedicationSystem.Persistence.EF/MedicationSystem.Persistence.EF.csproj",
+        "projectName": "MedicationSystem.Persistence.EF",
+        "projectPath": "/home/arch/Desktop/smartmed/src/Infrastructure/MedicationSystem.Persistence.EF/MedicationSystem.Persistence.EF.csproj",
+        "packagesPath": "/home/arch/.nuget/packages/",
+        "outputPath": "/home/arch/Desktop/smartmed/src/Infrastructure/MedicationSystem.Persistence.EF/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/arch/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/arch/Desktop/smartmed/src/Core/MedicationSystem.Application/MedicationSystem.Application.csproj": {
+                "projectPath": "/home/arch/Desktop/smartmed/src/Core/MedicationSystem.Application/MedicationSystem.Application.csproj"
+              },
+              "/home/arch/Desktop/smartmed/src/Core/MedicationSystem.Domain/MedicationSystem.Domain.csproj": {
+                "projectPath": "/home/arch/Desktop/smartmed/src/Core/MedicationSystem.Domain/MedicationSystem.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/arch/Desktop/smartmed/src/Presentation/MedicationSystem.RestApi/MedicationSystem.RestApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/arch/Desktop/smartmed/src/Presentation/MedicationSystem.RestApi/MedicationSystem.RestApi.csproj",
+        "projectName": "MedicationSystem.RestApi",
+        "projectPath": "/home/arch/Desktop/smartmed/src/Presentation/MedicationSystem.RestApi/MedicationSystem.RestApi.csproj",
+        "packagesPath": "/home/arch/.nuget/packages/",
+        "outputPath": "/home/arch/Desktop/smartmed/src/Presentation/MedicationSystem.RestApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/arch/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/arch/Desktop/smartmed/src/Core/MedicationSystem.Application/MedicationSystem.Application.csproj": {
+                "projectPath": "/home/arch/Desktop/smartmed/src/Core/MedicationSystem.Application/MedicationSystem.Application.csproj"
+              },
+              "/home/arch/Desktop/smartmed/src/Infrastructure/MedicationSystem.Infrastructure/MedicationSystem.Infrastructure.csproj": {
+                "projectPath": "/home/arch/Desktop/smartmed/src/Infrastructure/MedicationSystem.Infrastructure/MedicationSystem.Infrastructure.csproj"
+              },
+              "/home/arch/Desktop/smartmed/src/Infrastructure/MedicationSystem.Persistence.EF/MedicationSystem.Persistence.EF.csproj": {
+                "projectPath": "/home/arch/Desktop/smartmed/src/Infrastructure/MedicationSystem.Persistence.EF/MedicationSystem.Persistence.EF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

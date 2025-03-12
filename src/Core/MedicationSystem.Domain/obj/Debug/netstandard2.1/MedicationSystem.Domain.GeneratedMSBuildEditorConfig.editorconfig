@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = MedicationSystem.Domain
+build_property.ProjectDir = /home/arch/Desktop/smartmed/src/Core/MedicationSystem.Domain/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "zbh0A/Csb0c29TGDoAFskhZSTvnq/RioZJaSHonkKy/228aq6oSzrzMdfsM8klv3KG52RKldgQ3pdchTvSBfTQ==",
+  "success": true,
+  "projectFilePath": "/home/arch/Desktop/smartmed/src/Infrastructure/MedicationSystem.Infrastructure/MedicationSystem.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "/home/arch/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",
+    "/home/arch/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
+    "/home/arch/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/home/arch/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
