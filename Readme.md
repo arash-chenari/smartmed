@@ -40,7 +40,7 @@ Comprehensive testing is integral to the project's development process:
 To set up the SmartMed system locally, follow these steps:
 
 1. Clone the Repository:
-   bash
+   ```bash
    git clone https://github.com/arash-chenari/smartmed.git
 2. *Navigate to the project directory*:
     ```bash
